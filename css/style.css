@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box
+}
+
+#app-container {
+  font-family:sans-serif;
+}
+
+img{
+   width: 100%;
+   display: block;
+}
+
+header .left {
+  float: left;
+}
+
+header .right {
+  float: right;
+}
+
+#column-01 {
+font-size: 0;
+display: inline-block;
+}
+
+.pic {
+  display: inline-block;
+  width: 50%;
+}
+
+footer {
+  padding-top: 15px;
+  padding-left:30px;
+}
+
+footer .searchbar {
+  width: 25%;
+  height:5%;
+}
+
+@media screen and (min-width: 768px) {
+  .pic {width: 33.33%;}
+}
+
+@media screen and (max-width: 768px)
+ {
+   .pic {width:50%;}
+   header .left {margin-left: 100px;
+    text-align: center; position: relative; height: 12%;}
+   header .right {
+     margin-right: 130px; position: relative; height: 10%;}
+     footer .searchbar {width:50%;margin-left: 80px;}
+
+}
+
+@media screen and (min-width: 992px) {
+  .pic {width: 25%;}
+}
